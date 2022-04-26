@@ -1,0 +1,304 @@
+html{
+    height         : 100%;
+}
+
+body{
+    font-family    : serif;
+ 
+    margin         : 0px;
+    padding        : 0px;
+    
+    height         : 100%;
+    
+}
+
+.body-home{
+    background-image        : url(images/backboard-back-2.jpg);
+    background-position     : center;
+    background-attachment   : fixed;
+    background-repeat       : no-repeat;
+    background-size         : cover;
+}
+
+.body-meals{
+    background-image        : url(images/image-1.jpg);
+    background-position     : center;
+    background-attachment   : fixed;
+    background-repeat       : no-repeat;
+    background-size         : cover;
+}
+
+/*============HEADER============*/
+
+.header{
+    background-color    : White;
+    
+    width               : 100%;
+    position            : fixed;
+    overflow            : hidden;
+    text-align          : center;
+    
+    
+}
+
+.header i{
+    float              :left;
+    padding            : 25px 0px 0px 25px;
+    color              : chocolate;
+}
+
+
+.header img{
+    width              :200px;
+    padding-right      : 15px;
+}
+
+/*============HOME PAGES============*/
+#home-logo-img{
+    width              : 200px;
+    display            : block;
+    margin             : auto;
+    padding            : 25px 10px 10px 10px;
+}
+
+#home-logo-text{
+    width              : auto;
+    display            : block;
+    margin             : auto;
+    padding            : 10px 25px 25px  25px;
+}
+
+
+/*========== HOME PAGE MENU========*/
+
+.home-menu-item{
+    text-decoration    : none;
+    text-transform     : uppercase;
+    
+    
+    color: chocolate;
+    font-size          : 20px;
+    font-weight        : bold;
+    text-align         : center;
+    border             : 5px solid #964800;
+    
+    display            : block;
+    margin             : auto;
+    margin-bottom      : 10px;
+    width              : 50%;
+    float              : right;
+    padding-right      : 70px;
+    
+}
+.wd{
+   width               : 350px;
+    height             : 800px;
+    background-color   : black;
+    opacity            : 0.9px; 
+    padding-left       : 20px;
+}
+.wd h4{
+    font-family        : cursive;
+    text-align         : center;
+    padding-top        : 150px;
+    color              : aliceblue;
+}
+
+.wd h2{
+    text-align         : center;
+    padding-top        : 20px;
+    color              : aliceblue;
+}
+
+.wd p{
+    text-align         : center;
+    color              : aliceblue;
+}
+
+/*========== MEALS PAGE ========*/
+#meals{
+    padding-top        : 100px;
+   
+}
+
+
+.menu-details img{
+    width             : 50%;
+    position          : center;
+    border-image      : url(images/backboard-back-2.jpg;
+    padding-top       : 80px;
+    padding-left      : 25%;
+    
+    
+    backface-visibility  : visible;
+    
+}
+
+.menu-details h1{
+    color              : black;
+    text-align         : center;
+    text-transform     : uppercase;
+
+}
+
+.menu-details-info h3{
+    color              : black;
+    text-align         : center;
+}
+
+.menu-details-info h2{
+    color              : chocolate;
+    text-align         : center;
+    font-size          : 30px;
+}
+
+.menu-details-info p{
+    text-align         : center;
+}
+
+.menu{
+    border            : 5px solid black;
+}
+
+
+.box{
+    display           : flex;
+    justify-content   : center;
+    justify-items     : center;
+    padding-bottom    : 20px; 
+}
+
+.box place order{
+    background-color  : chocolate;
+}
+
+
+/*======= MEALS LIST ======*/
+
+
+.box ol li{
+    width           : 120px;
+    float           : left;
+    padding-bottom  : 20px;
+    text-align      : center;
+    
+}
+.extras{
+    text-align      : center;
+}
+
+.extras a{
+  background-color  : #4CAF50; /* Green */
+  border            : none;
+  color             : white;
+  padding           : 15px 32px;
+  text-align        : center;
+  text-decoration   : none;
+  display           : inline-block;
+  font-size         : 16px;
+    
+}
+
+.meals-list a{
+    text-decoration  : none;
+    
+}
+
+.meals-list-item{
+    border          : 5px solid #964800;
+    margin          : auto;
+    
+    margin-bottom   : 10px;
+    font-size       : 10px;
+}
+
+.meals-list-item h1{
+    font-weight      : bold;
+    color            : chocolate;
+    text-decoration  : none;
+    text-transform   : uppercase;
+}
+.meals-list-item i{
+    float            : right;
+}
+
+.meals-list-item p{
+    font-size        : 12px;
+    font-style       : italic;
+    padding-left     : 10px;
+    
+    color            : black;
+    padding-top      :-10px;
+}
+
+.ol li{
+    text-align       : center;
+}
+/*===============FEEDBACK=================*/
+.meals-feedback img{
+    width            : 30%;
+    padding-top      : 200px;
+    padding-left     : 35%;
+    
+}
+
+.meals-feedback h1{
+    color            : black;
+    text-align       : center;
+    text-transform   : uppercase;
+}
+
+.meals-feedback p{
+    text-align       : center;
+    font-size        : 20px;
+}
+
+/*=============RESPONSIVE LAYOUT=============*/
+@media only screen and(min-width: 350px){
+    #meals{
+        width        : 80%;
+        margin       : auto;
+    }
+    
+    #menu{
+        width        : 80%;
+        margin       : auto;
+    }
+    
+
+@media only screen and (min-width: 1000px) {
+      #meals{
+        width        : 60%;
+        margin       : auto;
+    }
+    
+    #menu{
+        width        : 60%;
+        margin       : auto;
+    }
+ 
+@media only screen and (min-width: 1500px) {
+      #meals{
+        width        : 40%;
+        margin       : auto;
+    }
+    
+    #menu{
+        width        : 40%;
+        margin       : auto;
+    }
+    #home{
+       width         : 80%;
+        margin       : auto;
+    }
+    
+    @media only screen and (min-width:720px) {
+        .body-home{
+            background-image  :url('images/backboard-back-2.jpg');
+        }
+        
+        .body-meals{
+            background-image  :url('images/image-1.jpg);
+        }
+  
+    
